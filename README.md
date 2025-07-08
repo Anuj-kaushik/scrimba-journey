@@ -8,8 +8,9 @@ This repository contains all my projects from the [Scrimba Full Stack Developer 
 
 | No. | Project Name      | Description                | Live Demo                     |
 |-----|-------------------|----------------------------|--------------------------------|
-| 01  | [Personal Site](./01-personal-site) | A simple personal website using HTML & CSS | [View Demo](https://scrimba-personal-website-anuj.netlify.app/) |
+| 01  | [Personal Site](./01-personal-site) | A simple personal website | [View Demo](https://scrimba-personal-website-anuj.netlify.app/) |
 | 02  | [Business Card](./02-business-card) | Digital business card layout | [View Demo](https://scrimba-business-card-anuj.netlify.app/) |
+| 02  | [Birthday Site](./03-birthday-site) | A simple birthday website | [View Demo](https://scrimba-birthday-site-anuj.netlify.app/) |
 
 ---
 
