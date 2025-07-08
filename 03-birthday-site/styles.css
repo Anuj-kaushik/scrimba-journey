@@ -1,0 +1,107 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#1CB5E0 0%, #000851 100%);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+    width: 250px;
+    border-radius: 25px;
+    border: 6px solid #000851;
+    margin-bottom: 10px;
+    
+}
+
+#bday-age {
+    background: #000851;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #000851;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid #000895;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("./gifs/Zootopia.gif");
+}
+
+#gift-img-hot:hover {
+    background-image: url("./gifs/Bon-Jovi-Reaction.gif");
+}
+
+#gift-img-genius:hover {
+    background-image: url("./gifs/Pet-Food-Cat.gif");
+}
+
+#gift-img-badass:hover {
+    background-image: url("./gifs/puss-in-boots.gif");
+    background-position: center;
+}
+
+#gift-img-cheers:hover {
+    background-image: url("./gifs/vibing-cat.gif");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
