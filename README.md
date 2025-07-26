@@ -12,6 +12,7 @@ This repository contains all my projects from the [Scrimba Full Stack Developer 
 | 02  | [Business Card](./02-business-card) | Digital business card layout | [View Demo](https://scrimba-business-card-anuj.netlify.app/) |
 | 03  | [Birthday Site](./03-birthday-site) | A simple birthday website | [View Demo](https://scrimba-birthday-site-anuj.netlify.app/) |
 | 04  | [Hometown Homepage](./04-hometown-homepage) | A simple birthday website | [View Demo](https://scrimba-hometown-homepage-anuj.netlify.app/) |
+| 05  | [Basketball Scoreboard](./05-basketball-scoreboard) | A simple basketball scoreboard with a live timer & team score control | [View Demo](https://scrimba-basketball-scoreboard-anuj.netlify.app/) |
 
 ---
 
