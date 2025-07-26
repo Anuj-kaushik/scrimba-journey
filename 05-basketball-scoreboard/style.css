@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "Exotique Display";
+  src: url(./fonts/exotiqe-display/EXOTIQEDISPLAY.otf);
+}
+
+@font-face {
+  font-family: "Freshtea Healthy";
+  src: url(./fonts/freshtea-healthy/Freshtea\ Healthy.otf);
+}
+
+@font-face {
+  font-family: "Cursed Timer";
+  src: url(./fonts/cursed-timer-ulil-font/CursedTimerUlil-Aznm.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(46, 45, 45);
+}
+
+main {
+  width: 500px;
+  height: 500px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #7c7b7b;
+}
+
+.timer-section {
+  /* background-color: blue; */
+  padding: 20px;  
+}
+
+.heading {
+  font-size: 44px;
+  font-family: "Exotique Display";
+}
+
+.display {
+  font-size: 50px;
+  margin: auto;
+  width: fit-content;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  font-family: "Cursed Timer";
+}
+
+.score-section {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(100, 93, 93);
+  font-family: "Exotique Display";
+}
+
+.home {
+  padding: 10px 20px;
+  background-color: royalblue;
+}
+.away {
+  padding: 10px 20px;
+  background-color: crimson;
+}
+
+.verses {
+  font-family: "Cursed Timer";
+  /* background-color: white; */
+  display: flex;
+  align-items: center;
+  font-size: 70px;
+}
+
+.inc-btn {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.action-btn {
+    /* background-color: purple; */
+    padding: 30px;
+  margin-top: 10px;
+}
+
+#new-game {
+  font-family: "Exotique Display";
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  background-color: #4caf50;
+}
+#game-over {
+  font-family: "Exotique Display";
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: #e53935;
+}

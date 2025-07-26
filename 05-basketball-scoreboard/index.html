@@ -1,0 +1,45 @@
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Basketball - Scoreboard</title>
+      <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+      <main>
+        <!-- timer section -->
+        <div class="timer-section">
+          <h2 class="heading">Timer</h2>
+          <p id="actual-time" class="display">13:00</p>
+        </div>
+
+        <!-- score section -->
+        <div class="score-section">
+          <div class="home">
+            <h2 class="heading">home</h2>
+            <p class="display score-home">00</p>
+            <button class="inc-btn" id="add-one-to-home">+1</button>
+            <button class="inc-btn" id="add-two-to-home">+2</button>
+            <button class="inc-btn" id="add-three-to-home">+3</button>
+          </div>
+          <p class="verses">-</p>
+          <div class="away">
+            <h2 class="heading">away</h2>
+            <p class="display score-away">00</p>
+            <button class="inc-btn" id="add-one-to-away">+1</button>
+            <button class="inc-btn" id="add-two-to-away">+2</button>
+            <button class="inc-btn" id="add-three-to-away">+3</button>
+          </div>
+        </div>
+
+        <!-- action section -->
+      <div class="action-btn">
+          <button id="new-game">new game</button>
+        <button id="game-over">game over</button>
+      </div>
+      </main>
+
+      <script src="script.js"></script>
+    </body>
+  </html>
